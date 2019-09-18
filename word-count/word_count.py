@@ -1,3 +1,3 @@
+from collections import Counter
 def count_words(sentence):
-    for word in sentence.split():
-        print(word)
+    return dict(Counter(sentence.split(' ')))
