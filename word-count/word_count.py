@@ -1,5 +1,7 @@
+import re
+
 def count_words(sentence):
-    sentence = sentence.lower()
+    sentence = re.sub('[^A-Za-z0-9\']+', ' ', sentence).lower()
     sentence_unique = sentence.split()
     count_dict = {}
     for word in sentence_unique:
