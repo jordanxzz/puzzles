@@ -1,2 +1,3 @@
 def count_words(sentence):
-    pass
+    for word in sentence.split():
+        print(word)
