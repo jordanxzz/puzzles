@@ -1,2 +1,4 @@
 def leap_year(year):
-    pass
+    print("hello")
+
+print(leap_year(1999))
