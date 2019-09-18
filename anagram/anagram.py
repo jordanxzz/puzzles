@@ -1,4 +1,5 @@
 def find_anagrams(word, candidates):
+    anagrams = []
     for i in range(len(candidates)):
         curr_cand = candidates[i]
         word_new = word
