@@ -1,3 +1,5 @@
+
+
 n = int(input("pick a number:"))
 print(n)
 while n != 1:
